@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.10.0"
+  version: "0.13.3"
   python_min: "3.11"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/l/langgraph-api/langgraph_api-${{ version }}.tar.gz
-  sha256: f594a160857e2cd7fb2352bba585111177a4a394625ad0cf5898814754fb7bc1
+  sha256: 9a17320eccf43b7de009eac577d5ad31584dc474abd4b83bc78f7089b1a52565
   patches:
     - patches/0001-strip-windows-incompatible-deps.patch
 
